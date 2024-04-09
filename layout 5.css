@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  background-color: lightgrey;
+}
+h1 {
+  margin: -1rem -1rem -1rem -1rem;
+  font-size: 5rem;
+  color: grey;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: white;
+}
+ul {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: nowrap;
+  flex-basis: 0;
+}
+li {
+  flex-direction: row;
+  padding: 2rem;
+  margin: 0 -2rem 2 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+figure {
+  flex-basis: 0;
+  max-width: 40rem;
+  padding: 1rem;
+  border: solid white 1rem;
+  background-color: white;
+}
+figure img {
+  max-width: 100%;
+}
+p {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}

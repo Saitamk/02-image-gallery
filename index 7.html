@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <script defer src="./js/showPic.js"></script>
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <h1>Snapshots</h1>
+    <ul>
+      <li>
+        <a
+          href="./images/ilotulitus.jpg"
+          title="A fireworks display"
+          onClick="showPic(this); return false;"
+          >Firework</a
+        >
+      </li>
+      <li>
+        <a
+          href="./images/kahvikuva.jpg"
+          title="A cup of coffee"
+          onClick="showPic(this); return false;"
+          >Coffee</a
+        >
+      </li>
+      <li>
+        <a
+          href="./images/ruusukuva.jpg"
+          title="A red, red rose"
+          onClick="showPic(this); return false;"
+          >Rose</a
+        >
+      </li>
+      <li>
+        <a
+          href="./images/bigben.jpg"
+          title="The famous clocktower"
+          onClick="showPic(this); return false;"
+          >Big Ben</a
+        >
+      </li>
+    </ul>
+
+    <figure>
+      <img
+        id="placeholder"
+        src="https://placehold.co/400x300?text=Saku+Koponen+Placeholder"
+        alt="My image gallery placeholder"
+      />
+    </figure>
+    <p id="description">Choose an image.</p>
+  </body>
+</html>
